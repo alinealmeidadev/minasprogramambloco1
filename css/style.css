@@ -39,6 +39,7 @@ span{
     padding-left: 20%;
     padding-right: 20%;
     margin-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
     justify-content: flex-start;
     font-family: Josefin-Sans;
@@ -48,7 +49,7 @@ h3{
     background-color: #902f88;
     padding: 10px;
     color: #ffffff;
-    justify-content: space-between;
+    justify-content: center;
     align-items: initial;
 }
 
@@ -58,6 +59,7 @@ main{
     justify-content: space-around;
     padding-left: 20%;
     padding-right: 20%;
+    padding-top: 80px;
 }
 
 .aline img{
@@ -73,4 +75,33 @@ article{
     max-width: 50%;
 }
 
-footer
+ul{
+
+}
+
+li{
+
+}
+footer{
+    display: flex;
+    height: 80px;
+    background-color: #a7a5a5;
+    padding-bottom: 3px;
+    padding-top: 30px;
+    margin-top: 80px;
+}
+.footertext{
+    color: #ffffff;
+    line-height: 30px;
+    padding-top: 10px;
+    max-width: 30%;
+    padding-left: 20%;
+}
+
+.footerlinks{
+    max-width: 70%; 
+}
+
+footer img{
+    width: 80px;
+}
